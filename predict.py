@@ -15,9 +15,9 @@ def predict():
 
     # debug信息的输出部分在 yolov5/utils/plots.py box_label() 函数
     run(
-        # weights='./yolov5/checkpoints/yolov5s_meter.pt',
+        weights='./yolov5/checkpoints/yolov5s_meter.pt',
         # weights='./yolov5/checkpoints/yolov5s_meter.engine',
-        weights='yolov5/runs/train/exp8/weights/best.pt',
+        # weights='yolov5/runs/train/exp8/weights/best.pt',
         # weights='yolov5/yolov5x.pt',
         source='load_video/video/1.mp4',
         # source='../test_video/new_meter2.mp4',
