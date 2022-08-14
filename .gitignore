@@ -1,0 +1,16 @@
+datasets/
+load_video/
+gui/
+result/
+wandb/
+yolov5/checkpoints/
+yolov5/runs/
+deeplabv3plus/checkpoints/
+deeplabv3plus/trained_model/
+deeplabv3plus/trained_model_water/
+deeplabv3plus/checkpoints_water/
+__pycache__/
+*/__pycache__/
+
+*.pt
+# *.
